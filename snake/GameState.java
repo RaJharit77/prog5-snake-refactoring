@@ -1,4 +1,5 @@
 package snake;
 
-public class GameState {
+public enum GameState {
+    RUNNING, GAME_OVER, PAUSED
 }
